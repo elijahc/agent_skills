@@ -17,7 +17,7 @@ def determine_asa(patient: Dict) -> str:
     brain_dead = patient.get("brain_dead", False)
     moribund = patient.get("moribund", False)
     systemic = patient.get("systemic_disease", "none")
-    functional_limitation = patient.get("functional_limitation", False)
+    # functional_limitation = patient.get("functional_limitation", False)
 
     # ASA VI
     if brain_dead:
