@@ -110,7 +110,7 @@ The `entityMap` contains embedded content:
 
 ### Step 4: Save and Optionally Upload
 
-Save to `<workspace>/exports/{slugified-title}.md`
+Save to `<workspace>/exports/x-to-markdown/{slugified-title}.md`
 
 If user wants a shareable link and the R2 upload skill is available:
 ```bash
@@ -125,7 +125,7 @@ If user wants a shareable link and the R2 upload skill is available:
 1. Fetch `https://api.fxtwitter.com/someone/status/123456` via `web_fetch`
 2. Parse the JSON response
 3. Convert blocks to markdown
-4. Save to `exports/`
+4. Save to `exports/x-to-markdown/`
 5. Optionally upload to R2 and share the link
 
 ## Notes
