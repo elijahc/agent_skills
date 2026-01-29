@@ -19,7 +19,7 @@ Shows a quick status message with:
 When the user asks for usage statistics, quota info, or session data:
 
 ```bash
-node /home/drew-server/clawd/skills/telegram-usage/handler.js
+node <skill>/handler.js
 ```
 
 This will output formatted HTML suitable for Telegram's parseMode.
